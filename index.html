@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Speed Tapping</title>
+</head>
+
+<body>
+    <h1 class="h1">Speed Tapping Game</h1>
+    <div class="game-container" id="gameContainer">
+
+        <div class="firstPlayer" id="firstPlayer">
+            <p class="p1">Player ☝🏼</p>
+            <p class="score" id="score1">Tap</p>
+            <p class="total1">Score : <span id="get1"></span></p>
+            <span class="timer1"> 00:30</span>
+        </div>
+        <div class="btns">
+            <button class="start">Start</button>
+            <!-- <p class="winner">Player 01 Won</p> -->
+            <div class="slider">
+                <div class="toggler">
+                    <div class="mode"></div>
+                </div>
+            </div>
+            <button class="restart">Restart</button>
+        </div>
+        <div class="secondPlayer" id="secondPlayer">
+            <p class="p2">Player ✌🏼</p>
+            <p class="score" id="score2">Tap</p>
+            <p class="total2">Score : <span id="get2"></span></p>
+            <span class="timer2">00:30</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
